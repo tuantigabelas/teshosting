@@ -1,0 +1,59 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Livvic', sans-serif;
+}
+
+nav.nav a {
+    text-transform: uppercase;
+    color: white;
+}
+
+
+nav a.active {
+    color: #475cfd;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #475cfd;
+}
+
+nav h5 {
+   font-weight: bold;
+}
+
+.main{
+    color: aliceblue;
+}
+
+.main h1{
+    font-weight: 100;
+}
+
+.main h1 span{
+    font-weight: bold;
+    color: blue
+}
+
+.main p {
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+main button {
+    margin-top: 20px;
+    color: rgb(255, 240, 250);
+}
+
+.card-body{
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-img{
+    position: absolute;
+    bottom:-110px;
+    right:0;
+    width: 50%;
+}
